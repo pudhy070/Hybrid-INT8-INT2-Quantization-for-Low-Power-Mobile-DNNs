@@ -80,8 +80,8 @@ Sensitivity analysis evaluates how perturbations in weights influence overall lo
 However, such methods have not been fully exploited for ultra-low-bit quantization in mobile environments.
 ## Chapter 3. Proposed Method
 ### 3.1 Multi-Precision Quantization Framework
-Let a neural network model \( M \) consist of layers \( L_1, L_2, \dots, L_n \).  
-Each layer is assigned a bit-width \( b_i \in B = \{8, 4, 2\} \).  
+Let a neural network model M={L1​,L2​,…,Ln​}
+Each layer is assigned a bit-widthb=[b1​,b2​,…,bn​],bi​∈{2,4,8}
 
 The precision assignment policy is governed by:
 
@@ -89,6 +89,7 @@ The precision assignment policy is governed by:
 - Distribution flatness
 - Parameter count
 - Sensitivity score
+  
 Precision Assignment Principles
 | Bit-width | Application Target                                   | Rationale           |
 | --------- | ---------------------------------------------------- | ------------------- |
