@@ -81,6 +81,7 @@ However, such methods have not been fully exploited for ultra-low-bit quantizati
 ## Chapter 3. Proposed Method
 ### 3.1 Multi-Precision Quantization Framework
 Let a neural network model M={L1​,L2​,…,Ln​}
+
 Each layer is assigned a bit-widthb=[b1​,b2​,…,bn​],bi​∈{2,4,8}
 
 The precision assignment policy is governed by:
